@@ -1,0 +1,10 @@
+<scroll-view scroll-y class="scrollPage">
+<view  class="padding">
+  <view wx:for-items="{{list}}" wx:key="id">
+    <view class="padding-xl radius shadow-warp bg-white margin-top">
+      <view> 我的项目:{{item.description}}</view>
+      <view> 项目地址:{{item.git_url}}</view>
+    </view>
+  </view>
+</view>
+</scroll-view>

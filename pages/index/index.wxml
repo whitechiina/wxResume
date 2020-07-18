@@ -1,0 +1,53 @@
+<view class="cu-timeline">
+
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">西安华夏天信科技有限公司</view>
+      <view class="text-df padding-bottom-xs">软件开发部门</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">前端开发</view>
+        <view class="cu-tag line-white">2020.03-至今</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">1.负责模块的二次开发和bug修复；</view>
+        <view class="text-justify">2.使用Echarts、HighChart进行数据可视化，二次开发；</view>
+        <view class="text-justify">3.钻研各种前沿技术和创新交互，增强用户体验，开拓前端能力边界；</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">晋城天策网络信息有限公司 </view>
+      <view class="text-df padding-bottom-xs">软件开发部</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">前端开发</view>
+        <view class="cu-tag line-white">2019.1-2019.12</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">1、根据产品设计需求，负责基于Html5，css3及JS等前端技术的Web开发；</view>
+        <view class="text-justify">2、利用 JavaScript 和 Jquery实现页面的动态效果；</view>
+        <view class="text-justify">3、高精度还原PSD图，负责产品页面的切图制作，交互效果代码实现；</view>
+        <view class="text-justify">4、使用Vue +Vue-Router 等技术开发WebApp；</view>
+        <view class="text-justify">5、与设计团队、后端开发团队紧密配合及优化网站前端性能；</view>
+        <view class="text-justify">6、配合后端工程师完成前后台数据的交互。</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">晋城支点文化传播有限公司</view>
+      <view class="text-df padding-bottom-xs">技术部</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">自媒体运营兼设计</view>
+        <view class="cu-tag line-white">2017.2-2018.12</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">1、负责公司微信公众号、微博、平台的编辑工作，主要包含内容编辑、发布、更新及维护；</view>
+        <view class="text-justify">2、对公司的各类新闻事件、市场活动、业务项目进行跟踪报道，并在**时间对外发布；</view>
+        <view class="text-justify">3、负责公司旗下微信公众号所需素材和申报资料的收集整理并提交到当地政企；</view>
+        <view class="text-justify">4、熟练使用PS,设计公司日常所需的一些平面海报 、banner图等</view>
+        <view class="text-justify">5、掌握Pr基本操作,制作简单的视频的剪辑与制作</view>
+      </view>
+    </view>
+  </view>
+</view>

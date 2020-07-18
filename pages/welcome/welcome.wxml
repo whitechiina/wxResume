@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="bg">
+    <text class="common title">来路殊途</text>
+    <text class="common subtitle" id="fadeIn">White丶</text>
+    <view class="common desc animate">
+      <text>旷</text>
+      <text>日</text>
+      <text>积</text>
+      <text>晷</text>
+      <text>·</text>
+      <text>吾</text>
+      <text>之</text>
+      <text>臂</text>
+      <text>躯</text>
+      <text>·</text>
+      <text>行</text>
+      <text>针</text>
+      <text>步</text>
+      <text>线</text>
+    </view>
+    <text class="common subdesc" id="fadeIn2">未 知 的 可 能 性 , 追 随 我 心</text>
+    <view class="common animate2">
+      <text>来</text><text>路</text><text>殊</text><text>途</text>
+    </view>
+  </view>
+
+</view>

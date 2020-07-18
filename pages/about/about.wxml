@@ -1,0 +1,62 @@
+<view class="padding">
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="flex justify-center">
+      <image class="cu-avatar xl round" src="../../images/avator.jpg"></image>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text class="text-bold">White丶</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>期望职位：</text>
+      <text class="text-shadow text-orange">前端开发工程师</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>男</text>
+      <text class="margin-left-sm">22岁</text>
+      <text class="margin-left-sm">1年工作经验</text>
+    </view>
+    <view class="flex justify-around margin-top-sm">
+      <view bindtap="showQrcode">
+        <text class="cuIcon-weixin text-xl text-blue"></text>
+        <text class="margin-left-xs">添加微信</text>
+      </view>
+      <view bindtap="phoneCall">
+        <text class="cuIcon-phone text-xl text-blue"></text>
+        <text class="margin-left-xs">拨打电话</text>
+      </view>
+      <view bindtap="saveContact">
+        <text class="cuIcon-addressbook text-xl text-blue"></text>
+        <text class="margin-left-xs">保存通讯录</text>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 教育经历 -->
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-medalfill text-xl text-blue text-center"></view>
+    <view class="edu margin-top text-center text-bold"></view>
+    <view class="margin-top">
+      <text class="cuIcon-time"></text>
+      <text class="margin-left-sm">2016.9-2019.7</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-home"></text>
+      <text class="margin-left-sm">山西广播电视大学</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-attentionfavor"></text>
+      <text class="margin-left-sm">计算机信息管理</text>
+    </view>
+  </view>
+
+  <!-- 自我评价 -->
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-appreciatefill text-xl text-blue text-center"></view>
+    <view class="evaluate margin-top text-center text-bold"></view>
+    <view class="margin-top evaluate-cont">
+      <text>1. 我是一个性格沉稳冷静、做事认真、有自学能力的人;</text>
+      <text>2. 对前端开发怀有热情和强烈的好奇心，不给自己设边界，更喜欢细致地感受它;</text>
+      <text>3. 对技术保持敬畏，对人对事保持谦卑，能够跟进最前沿的前端技术。</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,129 @@
+<scroll-view scroll-y class="scrollPage">
+<view>
+  <view class="cu-bar bg-white solid-bottom padding-top">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>HTML/HTML5
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-blue" style="width:{{loading?'70%':''}};">70%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-orange"></text>CSS/CSS3
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-orange" style="width:{{loading?'60%':''}};">60%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-green"></text>Javascript
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-green" style="width:{{loading?'70%':''}};">70%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-yellow"></text>jQuery
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-yellow" style="width:{{loading?'70%':''}};">70%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-olive"></text>Bootstrap
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-olive" style="width:{{loading?'80%':''}};">80%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-cyan"></text>React
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-cyan" style="width:{{loading?'40%':''}};">40%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-purple"></text>Vue
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-purple" style="width:{{loading?'70%':''}};">70%</view>
+    </view>
+  </view>
+</view>
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-brown"></text>微信小程序
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-brown" style="width:{{loading?'60%':''}};">60%</view>
+    </view>
+  </view>
+</view>
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-pink"></text>Nodejs
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-pink" style="width:{{loading?'20%':''}};">20%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-mauve"></text>MySQL
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-mauve" style="width:{{loading?'20%':''}};">20%</view>
+    </view>
+  </view>
+</view>
+</scroll-view>
