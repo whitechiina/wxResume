@@ -1,8 +1,9 @@
 <scroll-view scroll-y class="scrollPage">
   <view class="UCenter-bg">
     <image src="/images/avator.jpg" class="png" mode="widthFix"></image>
-    <view class="text-xl">个人简历
+    <view class="text-xl">My Blogs丶
     </view>
+    <view class="margin-top-sm">为我一挥手，如临万壑松</view>
     <view class="margin-top-sm">
       <text>By: jinyaowei.xyz</text>
     </view>
@@ -33,7 +34,7 @@
       </view>
     </view>
     <view class="cu-item arrow">
-      <view class="content" bindtap="showQrcode">
+      <view class="content" bindtap="comeon">
         <text class="cuIcon-appreciatefill text-red"></text>
         <text class="text-grey">赞赏支持</text>
       </view>

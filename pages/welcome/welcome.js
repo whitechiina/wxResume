@@ -21,7 +21,7 @@ Page({
       wx.switchTab({
         url: '/pages/about/about',
       })
-    }, 6000)
+    }, 1000)
   },
 
   /**

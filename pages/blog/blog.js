@@ -20,7 +20,13 @@ Page({
     this.getHomeList();
     this.getstart();
   },
-
+  // 赞赏
+  comeon: function () {
+    wx.previewImage({
+      current: 'https://pic.downk.cc/item/5f16a32614195aa594c47238.jpg', // 当前显示图片的http链接
+      urls: ['https://pic.downk.cc/item/5f16a32614195aa594c47238.jpg'] // 需要预览的图片http链接列表
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -125,7 +131,7 @@ Page({
   getHomeList() {
     var that = this;
     wx.request({
-      url: "https://api.github.com/users/whitechiina",
+      url: "http://81.70.8.159/users/whitechiina",
       success: function (res) { //请求成功
         that.setData({
           following: res.data.following,
@@ -139,7 +145,7 @@ Page({
   getstart() {
     var that = this;
     wx.request({
-      url: 'https://api.github.com/users/whitechiina/repos?page=1',
+      url: 'http://81.70.8.159/users/whitechiina/repos?page=1',
       success: function (res) { //请求成功
         let total = 0;
         res.data.forEach(item => {

@@ -7,13 +7,14 @@
       <text class="text-bold">White丶</text>
     </view>
     <view class="flex justify-center margin-top-sm">
-      <text>期望职位：</text>
+      <text>我的职位：</text>
       <text class="text-shadow text-orange">前端开发工程师</text>
     </view>
     <view class="flex justify-center margin-top-sm">
       <text>男</text>
       <text class="margin-left-sm">22岁</text>
-      <text class="margin-left-sm">1年工作经验</text>
+      <text class="margin-left-sm">山西·晋城</text>
+      <text class="margin-left-sm">2年工作经验</text>
     </view>
     <view class="flex justify-around margin-top-sm">
       <view bindtap="showQrcode">
