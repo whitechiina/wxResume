@@ -27,6 +27,18 @@ Page({
       urls: ['https://pic.downk.cc/item/5f16a32614195aa594c47238.jpg'] // 需要预览的图片http链接列表
     })
   },
+
+  // 提示
+  showModal(e) {
+    this.setData({
+      modalName: e.currentTarget.dataset.target
+    })
+  },
+  hideModal(e) {
+    this.setData({
+      modalName: null
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
